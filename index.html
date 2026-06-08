@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PTK | Fanpage</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Moderní fanouškovská stránka českého rappera PTK. Diskografie, alba, galerie a zajímavosti o jeho tvorbě.">
+    <meta name="keywords" content="PTK, český rap, rap, hudba, fanpage, diskografie">
+    <meta name="author" content="Tomáš Oehme">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="PTK Fanpage">
+    <meta property="og:description" content="Moderní fanouškovská stránka českého rappera PTK.">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter/X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PTK Fanpage">
+    <meta name="twitter:description" content="Fanouškovská stránka českého rappera PTK.">
+
+    <meta name="theme-color" content="#111111">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <a href="#" class="logo">PTK<span>.</span></a>
+
+<button class="menu-toggle" aria-label="Otevřít menu">
+    <i class="fas fa-bars"></i>
+</button>
+
+<nav class="nav-links" aria-label="Hlavní navigace">
+    <a href="#about">O PTK</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#diskografie">Diskografie</a>
+</nav>
+
+
+        <!-- Sociální ikonky nahoru -->
+        <div class="social-icons">
+            <a href="https://www.instagram.com/takahiroryuu/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/c/icedoutPTK" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.twitch.tv/icedoutakahiro" target="_blank" aria-label="Twitch"><i class="fab fa-twitch"></i></a>
+            <a href="https://open.spotify.com/artist/5iYtjtFv6SvHX95ny4fVEz" target="_blank" aria-label="Spotify"><i class="fab fa-spotify"></i></a>
+        </div>
+    </div>
+</header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>PTK</h1>
+
+<p>
+    Český rapper, zakladatel PTK Music a jedna z nejvýraznějších
+    postav současné české rapové scény.
+</p>
+
+<div class="hero-stats">
+
+    <div>
+        <strong>9+</strong>
+        <span>Projektů</span>
+    </div>
+
+    <div>
+        <strong>Cheb</strong>
+        <span>Od roku 2016</span>
+    </div>
+
+    <div>
+        <strong>PTK Music</strong>
+        <span>Label</span>
+    </div>
+
+</div>
+
+<a href="#about" class="btn">Prozkoumat</a>
+
+            </div>
+        </section>
+
+        <section id="about" class="normal-section">
+            <div class="container">
+                <h2>O PTK</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p><strong>Pata aka PTK</strong> je jedním z nejvýraznějších jmen české rapové scény současnosti. Z nezávislého undergroundu v Chebu se vypracoval až k vyprodaným shows a statisícům posluchačů.</p>
+                        <p>Jeho tvorba se vyznačuje surovým, temným zvukem a naprostou upřímností v textech. Nebojí se kombinovat trap s dalšími tvrdými žánry a budovat svůj vlastní, unikátní vesmír, který reprezentuje jeho label <em>PTK Music</em>.</p>
+                        <p>Na svém kontě má zásadní projekty jako <em>Trappin Lonely</em>, <em>Silent Kill</em>, <em>Karakoram</em> a další.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="./photos/ptk_drip.jpg", alt="Portrét PTK", loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galerie" class="normal-section">
+            <div class="container">
+                <h2>Live Shows & Galerie</h2>
+                <div class="gallery-grid" id="gallery-container"></div>
+            </div>
+        </section>
+
+        <div id="diskografie">
+            <h2 class="parallax-title">Diskografie</h2>
+            
+            <!-- Karakoram -->
+            <div id="karakoram">
+                <section class="parallax">
+                    <div class="parallax-content">
+                        <h2>Karakoram</h2>
+                        <span class="album-meta">2023 · Studiové album</span>
+                    </div>
+                </section>
+                <section class="album-tracklist-section">
+                    <ul class="tracklist" id="tracks-karakoram"></ul>
+                </section>
+            </div>
+
+            <!-- Silent Kill -->
+            <div id="silent-kill">
+                <section class="parallax">
+                    <div class="parallax-content">
+                        <h2>Silent Kill</h2>
+                        <span class="album-meta">2022 · Studiové album</span>
+                    </div>
+                </section>
+                <section class="album-tracklist-section">
+                    <ul class="tracklist" id="tracks-silent"></ul>
+                </section>
+            </div>
+            
+            <!-- Golden Hill -->
+            <div id="golden-hill">
+                <section class="parallax">
+                    <div class="parallax-content">
+                        <h2>Golden Hill</h2>
+                        <span class="album-meta">2021 · Mixtape</span>
+                    </div>
+                </section>
+                <section class="album-tracklist-section">
+                    <ul class="tracklist" id="tracks-golden"></ul>
+                </section>
+            </div>
+
+            <!-- Trappin Lonely -->
+            <div id="trappin-lonely">
+                <section class="parallax">
+                    <div class="parallax-content">
+                        <h2>Trappin Lonely</h2>
+                        <span class="album-meta">2019 · Studiové album</span>
+                    </div>
+                </section>
+                <section class="album-tracklist-section">
+                    <ul class="tracklist" id="tracks-trappin"></ul>
+                </section>
+            </div>
+
+            <!-- Painkillers -->
+            <div id="painkillers">
+                <section class="parallax">
+                    <div class="parallax-content">
+                        <h2>Painkillers</h2>
+                        <span class="album-meta">Collab s Yzomandias</span>
+                    </div>
+                </section>
+                <section class="album-tracklist-section">
+                    <ul class="tracklist" id="tracks-painkillers"></ul>
+                </section>
+            </div>
+
+            <!-- 27 -->
+
+            <div id="27">
+                <section class="parallax" style="background-image: url('./covers/27.jpg');">
+                    <div class="parallax-content">
+                        <h2>27</h2>
+                        <span class="album-meta">Studiové album</span>
+                    </div>
+                </section>
+                <section class="album-tracklist-section">
+                    <ul class="tracklist" id="tracks-27"></ul>
+                </section>
+            </div>
+
+            <!-- Bad Vibe -->
+            <div id="bad-vibe">
+                <section class="parallax">
+                    <div class="parallax-content">
+                        <h2>Bad Vibe</h2>
+                        <span class="album-meta">Studiové album</span>
+                    </div>
+                </section>
+                <section class="album-tracklist-section">
+                    <ul class="tracklist" id="tracks-badvibe"></ul>
+                </section>
+            </div>
+
+            <!-- Utopený v čase -->
+            <div id="utopeny">
+                <section class="parallax">
+                    <div class="parallax-content">
+                        <h2>Utopený v čase</h2>
+                        <span class="album-meta">Studiové album</span>
+                    </div>
+                </section>
+                <section class="album-tracklist-section">
+                    <ul class="tracklist" id="tracks-utopeny"></ul>
+                </section>
+            </div>
+
+            <!-- Trap Menu -->
+            <div id="trap-menu">
+                <section class="parallax">
+                    <div class="parallax-content">
+                        <h2>Trap Menu</h2>
+                        <span class="album-meta">Collab se Slugerrem</span>
+                    </div>
+                </section>
+                <section class="album-tracklist-section">
+                    <ul class="tracklist" id="tracks-trapmenu"></ul>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 PTK Fanpage | Školní projekt Webové technologie</p>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+    <span class="close-lightbox">&times;</span>
+    <img id="lightbox-img" src="" alt="Zvětšený obrázek">
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
