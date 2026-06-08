@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gh0sttom7.github.io/ptk-fanpage/sitemap.xml
